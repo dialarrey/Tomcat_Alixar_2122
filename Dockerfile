@@ -15,3 +15,5 @@ COPY mytomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
 COPY mycontext.xml /usr/local/tomcat/webapps/host-manager/META-INF/context.xml
 COPY mycontext.xml /usr/local/tomcat/webapps/manager/META-INF/context.xml
 
+# COPY THE APP
+COPY helloworld.war /usr/local/tomcat/webapps/helloworld.war 
