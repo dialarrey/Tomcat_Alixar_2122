@@ -15,4 +15,4 @@ No se recomienda usar en producción ya que es una imagen creada únicamente con
 
 Para la puesta en marcha de una instancia de la imagen debemos:
 
-_docker run -d -it --rm -p 8888:8080 --name tomcat -v $(pwd)/webapps:/usr/local/tomcat/webapps dialarrey/tomcatcurso2122
+docker run -d -it --rm -p 8888:8080 --name tomcat -v $(pwd)/webapps:/usr/local/tomcat/webapps dialarrey/tomcatcurso2122
